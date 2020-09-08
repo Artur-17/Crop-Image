@@ -67,7 +67,7 @@ footer {
 }
 
 footer::after {
-    content: "Feito com ♥️ por Mayk Brito";
+    content: "";
     opacity: 0.6;
     font-size: 0.8rem;
 }
@@ -111,3 +111,27 @@ img {
 
 
 /* Image Crop */
+
+#photo-file {
+    display: none;
+}
+
+#photo-preview {
+    margin: .8rem 0;
+}
+
+#selection-tool{
+    position: fixed;
+    display: none;
+    
+    border: 2px dashed var(--green);
+
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+
+#crop-image, #download-image {
+    display: none;
+}
